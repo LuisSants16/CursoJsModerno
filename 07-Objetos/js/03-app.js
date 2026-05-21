@@ -1,0 +1,13 @@
+const producto = {
+    nombre: "Monitor 20 Pulgadas",
+    precio: 300,
+    disponible: true
+}
+
+// Agregar nuevas propiedad al objeto
+producto.imagen = "imagen.jpg";
+
+// Eliminar propiedad del objeto
+delete producto.disponible;
+
+console.log(producto);
