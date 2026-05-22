@@ -11,5 +11,5 @@ console.log(meses.length);
 
 // Como recorrer un arreglo - con for(empezando ver al for)
 for(let i = 0; i < meses.length ; i++){
-    console.log(meses[i]);
+    console.table(meses[i]);
 }

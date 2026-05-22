@@ -11,10 +11,14 @@ const carrito = [
 
 console.table(carrito);
 
+// En for no lo podemos hacer , tendriamos que renombrar el arreglo original
 for(let i = 0; i < carrito.length; i++){
     console.log(`${carrito[i].nombre} con un precio de: ${carrito[i].precio}`)
 }
 
+//for y forEach hacen lo mismo - ambos se comportan igual
+
+//sin embargo en forEach aqui tenemos la ventaja de poner el nombre que queramos
 carrito.forEach( function(producto){
     console.log(`${producto.nombre} - Precio : ${producto.precio}`)
 })

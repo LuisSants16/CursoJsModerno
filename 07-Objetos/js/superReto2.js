@@ -44,7 +44,6 @@ recintoBase.capacidadMax = 5;
 
 delete recintoBase.secto;
 
-
 // Módulo 4: Apertura del Parque (Destructuring y Spread Operator)
 
 const {seguridad:{voltaje},estado:{luces}} = recintoBase;
